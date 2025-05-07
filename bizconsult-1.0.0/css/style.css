@@ -439,3 +439,8 @@
 .no-arrow::after {
     display: none !important;
 }
+
+.card-img-top {
+    height: 200px; /* Or any height that fits your layout */
+    object-fit: cover;
+  }
