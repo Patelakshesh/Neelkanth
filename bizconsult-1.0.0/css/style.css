@@ -444,3 +444,45 @@
     height: 200px; /* Or any height that fits your layout */
     object-fit: cover;
   }
+
+.mainhead {
+    font-weight: 500;
+    position: relative;
+}
+.iconcard {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    border: 1px solid rgb(255 255 255 / 10%);
+    padding: 10px;
+    height: 100%;
+    border-radius: .25rem;
+    background-color: #00b98e;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+.iconcard .icon {
+    width: 44px;
+    margin-top: 10px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+.iconcard .icon img {
+    width: 100%;
+}
+.iconcard .cardhead {
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+.iconcard p {
+    font-size: .875rem;
+    color: white;
+    margin-bottom: 5px;
+}
+.team {
+    background-color: #ffffff;
+}
+.cmpad {
+    padding-left: 80px;
+    padding-right: 80px;
+}
