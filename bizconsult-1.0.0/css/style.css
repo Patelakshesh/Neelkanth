@@ -142,6 +142,9 @@
     .navbar .navbar-brand h1 {
         color: var(--primary);
     }
+    .navbar .navbar-brand .sub {
+        color: var(--primary);
+    }
 
     .navbar .navbar-brand img {
         max-height: 45px;
@@ -191,6 +194,9 @@
     }
 
     .sticky-top.navbar .navbar-brand h1 {
+        color: var(--primary);
+    }
+    .sticky-top.navbar .navbar-brand .sub {
         color: var(--primary);
     }
 
@@ -577,3 +583,34 @@
     color: white;
     text-align: justify;
 }
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.1;
+    font-family: 'Cinzel', serif;
+  }
+  
+  .brand {
+    font-size: 48px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin: 0;
+    z-index: 1;
+    color: white;
+  }
+  
+  .sub {
+    font-size: 14px;
+    letter-spacing: 8px;
+    font-weight: 550;
+    margin-top: 2px;
+    z-index: 1;
+    color: white;
+  }
+  
+  
+
+  
