@@ -3,13 +3,13 @@ import {transporter} from '../config/mail.config.js'
 export const sendMail = async (req, res) => {
     try {
         const {name, email, subject, message} = req.body;
+        console.log(email, subject, message, "email check")
 
-        await transporter.sendMail({
+    await transporter.sendMail({
             from: email,
-            to: process.env.EMAIL_USER,
-            subject: `${subject}`,
+            subject: subject,
             text: message
-        })
+        });
 
         res.status(200).json({
             message: "Email sent Successfully!",

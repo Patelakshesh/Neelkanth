@@ -1,9 +1,8 @@
 import express from "express";
 import cors from 'cors'
 import bodyParser from "body-parser";
-import dotenv from 'dotenv'
 import mailRoutes from './routes/mail.routes.js'
-dotenv.config();
+
 
 const app = express();
 const PORT = 5000;
